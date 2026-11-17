@@ -1,0 +1,10 @@
+{
+  "/proxyapi": {
+    "target": "https://api-internal.sandbox.team2.ismd.philsys.gov.ph",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/proxyapi": ""
+    }
+  }
+}
